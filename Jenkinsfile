@@ -3,10 +3,10 @@ pipeline {
     agent {Dockerfile true}
     stage{
      steps {
-             sh 'python3 -m robot  -d Reports Tests'
+             sh 'python3 -m robot  -d  Reports -t test1 Tests'
              sh 'echo myapp = ${myapp}'
             }
-     }
+
      post {
                 always {
                     robot(
@@ -19,6 +19,6 @@ pipeline {
 
                 }
             }
+
         }
-    }
 }
