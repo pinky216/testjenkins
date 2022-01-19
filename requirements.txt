@@ -1,0 +1,19 @@
+###### Requirements without Version Specifiers ######
+azure-cosmos
+RESTinstance
+pyYAML
+robotframework-jsonlibrary
+pyodbc==4.0.30
+robotframework
+robotframework-seleniumlibrary
+robotframework-selenium2library
+robotframework-requests
+#pywin32; sys_platform == 'win32'
+pyautogui
+pymssql
+###### Requirements with Version Specifiers ######
+
+# Version Matching. Must be version  		(==)
+# Minimum version				(>=)
+# Version Exclusion. Anything except version	(!=)
+# Compatible release. Same as >=, == 1.*	(~=)

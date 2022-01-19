@@ -3,7 +3,7 @@ pipeline {
     agent {dockerfile true}
     stage{
      steps {
-             sh 'robot ./Tests/test1.robot'
+             sh 'python3 -m robot.run  -d Reports Tests'
              sh 'echo myapp = ${myapp}'
             }
      }
