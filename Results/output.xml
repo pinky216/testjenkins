@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.7.9 on win32)" generated="20220119 15:19:27.088" rpa="false" schemaversion="2">
+<suite id="s1" name="Test1" source="C:\Users\pkumari\RobotforPractise\Tests\test1.robot">
+<test id="s1-t1" name="User must sign in to check out">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://www.amazon.com</arg>
+<arg>firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220119 15:19:27.463" level="INFO">Opening browser 'firefox' to base url 'http://www.amazon.com'.</msg>
+<msg timestamp="20220119 15:19:27.467" level="INFO">Firefox driver log is always forced to to: C:\Users\pkumari\RobotforPractise\Results\geckodriver-4.log</msg>
+<status status="PASS" starttime="20220119 15:19:27.462" endtime="20220119 15:19:45.370"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220119 15:19:48.379" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220119 15:19:45.373" endtime="20220119 15:19:48.379"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220119 15:19:48.380" endtime="20220119 15:19:53.227"/>
+</kw>
+<doc>This is some basic information trying to do about the test case</doc>
+<tag>DEBUG</tag>
+<status status="PASS" starttime="20220119 15:19:27.461" endtime="20220119 15:19:53.229"/>
+</test>
+<doc>This is some basic information about the whole suite</doc>
+<status status="PASS" starttime="20220119 15:19:27.091" endtime="20220119 15:19:53.234"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">DEBUG</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test1">Test1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

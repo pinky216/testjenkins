@@ -1,0 +1,504 @@
+lsp: 2022-01-18 14:04:42 UTC pid: 22524 - ThreadPoolExecutor-1_2 - EXCEPTION - robotframework_ls.impl.libspec_manager
+Error creating libspec: Selenium2Librar.
+Return code: 252
+Output:
+Importing library 'Selenium2Librar' failed: ModuleNotFoundError: No module named 'Selenium2Librar'
+
+Traceback (most recent call last):
+
+  None
+
+PYTHONPATH:
+
+  C:\Users\pkumari\RobotforPractise
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\python310.zip
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\DLLs
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310
+
+  C:\Users\pkumari\AppData\Roaming\Python\Python310\site-packages
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages
+
+
+
+Try --help for usage information.
+
+
+
+Traceback (most recent call last):
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 891, in _cached_create_libspec
+    self._subprocess_check_output(
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 775, in _subprocess_check_output
+    return subprocess.check_output(*args, **kwargs)
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 420, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 524, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\pkumari\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'robot.libdoc', 'Selenium2Librar', 'C:\\Users\\pkumari\\.robotframework-ls\\specs\\v2\\a18ac761_4.1.1\\user\\Selenium2Librar.libspec']' returned non-zero exit status 252.
+lsp: 2022-01-18 14:04:42 UTC pid: 22524 - ThreadPoolExecutor-1_5 - EXCEPTION - robotframework_ls.impl.libspec_manager
+Error creating libspec: Seleni.
+Return code: 252
+Output:
+Importing library 'Seleni' failed: ModuleNotFoundError: No module named 'Seleni'
+
+Traceback (most recent call last):
+
+  None
+
+PYTHONPATH:
+
+  C:\Users\pkumari\RobotforPractise
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\python310.zip
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\DLLs
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310
+
+  C:\Users\pkumari\AppData\Roaming\Python\Python310\site-packages
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages
+
+
+
+Try --help for usage information.
+
+
+
+Traceback (most recent call last):
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 891, in _cached_create_libspec
+    self._subprocess_check_output(
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 775, in _subprocess_check_output
+    return subprocess.check_output(*args, **kwargs)
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 420, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 524, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\pkumari\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'robot.libdoc', 'Seleni', 'C:\\Users\\pkumari\\.robotframework-ls\\specs\\v2\\a18ac761_4.1.1\\user\\Seleni.libspec']' returned non-zero exit status 252.
+lsp: 2022-01-18 14:04:43 UTC pid: 22524 - ThreadPoolExecutor-1_4 - EXCEPTION - robotframework_ls.impl.libspec_manager
+Error creating libspec: Seleni.
+Return code: 252
+Output:
+Importing library 'Seleni' failed: ModuleNotFoundError: No module named 'Seleni'
+
+Traceback (most recent call last):
+
+  None
+
+PYTHONPATH:
+
+  C:\Users\pkumari\RobotforPractise
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\python310.zip
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\DLLs
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310
+
+  C:\Users\pkumari\AppData\Roaming\Python\Python310\site-packages
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages
+
+
+
+Try --help for usage information.
+
+
+
+Traceback (most recent call last):
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 891, in _cached_create_libspec
+    self._subprocess_check_output(
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 775, in _subprocess_check_output
+    return subprocess.check_output(*args, **kwargs)
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 420, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 524, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\pkumari\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'robot.libdoc', 'Seleni', 'C:\\Users\\pkumari\\.robotframework-ls\\specs\\v2\\a18ac761_4.1.1\\user\\Seleni.libspec']' returned non-zero exit status 252.
+lsp: 2022-01-18 14:04:43 UTC pid: 22524 - ThreadPoolExecutor-1_8 - EXCEPTION - robotframework_ls.impl.libspec_manager
+Error creating libspec: Seleni.
+Return code: 252
+Output:
+Importing library 'Seleni' failed: ModuleNotFoundError: No module named 'Seleni'
+
+Traceback (most recent call last):
+
+  None
+
+PYTHONPATH:
+
+  C:\Users\pkumari\RobotforPractise
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\python310.zip
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\DLLs
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310
+
+  C:\Users\pkumari\AppData\Roaming\Python\Python310\site-packages
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages
+
+
+
+Try --help for usage information.
+
+
+
+Traceback (most recent call last):
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 891, in _cached_create_libspec
+    self._subprocess_check_output(
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 775, in _subprocess_check_output
+    return subprocess.check_output(*args, **kwargs)
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 420, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 524, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\pkumari\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'robot.libdoc', 'Seleni', 'C:\\Users\\pkumari\\.robotframework-ls\\specs\\v2\\a18ac761_4.1.1\\user\\Seleni.libspec']' returned non-zero exit status 252.
+lsp: 2022-01-18 14:04:44 UTC pid: 22524 - ThreadPoolExecutor-1_1 - EXCEPTION - robotframework_ls.impl.libspec_manager
+Error creating libspec: Seleni.
+Return code: 252
+Output:
+Importing library 'Seleni' failed: ModuleNotFoundError: No module named 'Seleni'
+
+Traceback (most recent call last):
+
+  None
+
+PYTHONPATH:
+
+  C:\Users\pkumari\RobotforPractise
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\python310.zip
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\DLLs
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310
+
+  C:\Users\pkumari\AppData\Roaming\Python\Python310\site-packages
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages
+
+
+
+Try --help for usage information.
+
+
+
+Traceback (most recent call last):
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 891, in _cached_create_libspec
+    self._subprocess_check_output(
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 775, in _subprocess_check_output
+    return subprocess.check_output(*args, **kwargs)
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 420, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 524, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\pkumari\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'robot.libdoc', 'Seleni', 'C:\\Users\\pkumari\\.robotframework-ls\\specs\\v2\\a18ac761_4.1.1\\user\\Seleni.libspec']' returned non-zero exit status 252.
+lsp: 2022-01-18 14:04:45 UTC pid: 22524 - ThreadPoolExecutor-1_0 - EXCEPTION - robotframework_ls.impl.libspec_manager
+Error creating libspec: Seleni.
+Return code: 252
+Output:
+Importing library 'Seleni' failed: ModuleNotFoundError: No module named 'Seleni'
+
+Traceback (most recent call last):
+
+  None
+
+PYTHONPATH:
+
+  C:\Users\pkumari\RobotforPractise
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\python310.zip
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\DLLs
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310
+
+  C:\Users\pkumari\AppData\Roaming\Python\Python310\site-packages
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages
+
+
+
+Try --help for usage information.
+
+
+
+Traceback (most recent call last):
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 891, in _cached_create_libspec
+    self._subprocess_check_output(
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 775, in _subprocess_check_output
+    return subprocess.check_output(*args, **kwargs)
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 420, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 524, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\pkumari\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'robot.libdoc', 'Seleni', 'C:\\Users\\pkumari\\.robotframework-ls\\specs\\v2\\a18ac761_4.1.1\\user\\Seleni.libspec']' returned non-zero exit status 252.
+lsp: 2022-01-18 14:04:45 UTC pid: 22524 - ThreadPoolExecutor-1_3 - EXCEPTION - robotframework_ls.impl.libspec_manager
+Error creating libspec: Seleni.
+Return code: 252
+Output:
+Importing library 'Seleni' failed: ModuleNotFoundError: No module named 'Seleni'
+
+Traceback (most recent call last):
+
+  None
+
+PYTHONPATH:
+
+  C:\Users\pkumari\RobotforPractise
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\python310.zip
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\DLLs
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310
+
+  C:\Users\pkumari\AppData\Roaming\Python\Python310\site-packages
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages
+
+
+
+Try --help for usage information.
+
+
+
+Traceback (most recent call last):
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 891, in _cached_create_libspec
+    self._subprocess_check_output(
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 775, in _subprocess_check_output
+    return subprocess.check_output(*args, **kwargs)
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 420, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 524, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\pkumari\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'robot.libdoc', 'Seleni', 'C:\\Users\\pkumari\\.robotframework-ls\\specs\\v2\\a18ac761_4.1.1\\user\\Seleni.libspec']' returned non-zero exit status 252.
+lsp: 2022-01-18 14:04:46 UTC pid: 22524 - ThreadPoolExecutor-1_9 - EXCEPTION - robotframework_ls.impl.libspec_manager
+Error creating libspec: Seleni.
+Return code: 252
+Output:
+Importing library 'Seleni' failed: ModuleNotFoundError: No module named 'Seleni'
+
+Traceback (most recent call last):
+
+  None
+
+PYTHONPATH:
+
+  C:\Users\pkumari\RobotforPractise
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\python310.zip
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\DLLs
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310
+
+  C:\Users\pkumari\AppData\Roaming\Python\Python310\site-packages
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages
+
+
+
+Try --help for usage information.
+
+
+
+Traceback (most recent call last):
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 891, in _cached_create_libspec
+    self._subprocess_check_output(
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 775, in _subprocess_check_output
+    return subprocess.check_output(*args, **kwargs)
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 420, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 524, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\pkumari\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'robot.libdoc', 'Seleni', 'C:\\Users\\pkumari\\.robotframework-ls\\specs\\v2\\a18ac761_4.1.1\\user\\Seleni.libspec']' returned non-zero exit status 252.
+lsp: 2022-01-18 14:04:47 UTC pid: 22524 - ThreadPoolExecutor-1_6 - EXCEPTION - robotframework_ls.impl.libspec_manager
+Error creating libspec: Seleni.
+Return code: 252
+Output:
+Importing library 'Seleni' failed: ModuleNotFoundError: No module named 'Seleni'
+
+Traceback (most recent call last):
+
+  None
+
+PYTHONPATH:
+
+  C:\Users\pkumari\RobotforPractise
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\python310.zip
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\DLLs
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310
+
+  C:\Users\pkumari\AppData\Roaming\Python\Python310\site-packages
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages
+
+
+
+Try --help for usage information.
+
+
+
+Traceback (most recent call last):
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 891, in _cached_create_libspec
+    self._subprocess_check_output(
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 775, in _subprocess_check_output
+    return subprocess.check_output(*args, **kwargs)
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 420, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 524, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\pkumari\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'robot.libdoc', 'Seleni', 'C:\\Users\\pkumari\\.robotframework-ls\\specs\\v2\\a18ac761_4.1.1\\user\\Seleni.libspec']' returned non-zero exit status 252.
+lsp: 2022-01-18 14:04:47 UTC pid: 22524 - Thread-5 - CRITICAL - robocorp_ls_core.jsonrpc.endpoint
+===============================================================================
+Slow request (already took: 5s). Showing thread dump.
+================================= Thread Dump =================================
+
+-------------------------------------------------------------------------------
+ Thread <Thread(ThreadPoolExecutor-1_7, started 3192)>
+
+ File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\threading.py", line 966, in _bootstrap
+   self._bootstrap_inner()
+ File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1009, in _bootstrap_inner
+   self.run()
+ File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\threading.py", line 946, in run
+   self._target(*self._args, **self._kwargs)
+ File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 77, in _worker
+   work_item.run()
+ File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 52, in run
+   result = self.fn(*self.args, **self.kwargs)
+ File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\vendored\robocorp_ls_core\jsonrpc\endpoint.py", line 264, in _call_checking_time
+   return func(**kwargs)
+ File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\server_api\server.py", line 159, in _threaded_lint
+   analysis_errors = code_analysis.collect_analysis_errors(completion_context)
+ File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\code_analysis.py", line 112, in collect_analysis_errors
+   collect_keywords(completion_context, collector)
+ File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\collect_keywords.py", line 365, in collect_keywords
+   _collect_following_imports(completion_context, collector)
+ File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\collect_keywords.py", line 332, in _collect_following_imports
+   _collect_libraries_keywords(completion_context, collector)
+ File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\collect_keywords.py", line 284, in _collect_libraries_keywords
+   library_doc = libspec_manager.get_library_info(
+ File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 1083, in get_library_info
+   if self._do_create_libspec_on_get(libname, target_file):
+ File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 952, in _do_create_libspec_on_get
+   if self._create_libspec(libname, target_file=target_file):
+ File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 762, in _create_libspec
+   created = self._cached_create_libspec(libname, is_builtin, target_file)
+ File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 866, in _cached_create_libspec
+   with timed_acquire_mutex(
+ File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\vendored\robocorp_ls_core\system_mutex.py", line 317, in timed_acquire_mutex
+   time.sleep(sleep_time)
+
+=============================== END Thread Dump ===============================
+
+lsp: 2022-01-18 14:04:48 UTC pid: 22524 - ThreadPoolExecutor-1_7 - EXCEPTION - robotframework_ls.impl.libspec_manager
+Error creating libspec: Seleni.
+Return code: 252
+Output:
+Importing library 'Seleni' failed: ModuleNotFoundError: No module named 'Seleni'
+
+Traceback (most recent call last):
+
+  None
+
+PYTHONPATH:
+
+  C:\Users\pkumari\RobotforPractise
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\python310.zip
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\DLLs
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310
+
+  C:\Users\pkumari\AppData\Roaming\Python\Python310\site-packages
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages
+
+
+
+Try --help for usage information.
+
+
+
+Traceback (most recent call last):
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 891, in _cached_create_libspec
+    self._subprocess_check_output(
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 775, in _subprocess_check_output
+    return subprocess.check_output(*args, **kwargs)
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 420, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 524, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\pkumari\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-m', 'robot.libdoc', 'Seleni', 'C:\\Users\\pkumari\\.robotframework-ls\\specs\\v2\\a18ac761_4.1.1\\user\\Seleni.libspec']' returned non-zero exit status 252.
+lsp: 2022-01-18 14:04:53 UTC pid: 22524 - ThreadPoolExecutor-1_3 - EXCEPTION - robotframework_ls.impl.libspec_manager
+Error creating libspec: Selenium2Librar.
+Return code: 252
+Output:
+Importing library 'Selenium2Librar' failed: ModuleNotFoundError: No module named 'Selenium2Librar'
+
+Traceback (most recent call last):
+
+  None
+
+PYTHONPATH:
+
+  C:\Users\pkumari\RobotforPractise
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\python310.zip
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\DLLs
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310
+
+  C:\Users\pkumari\AppData\Roaming\Python\Python310\site-packages
+
+  C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages
+
+
+
+Try --help for usage information.
+
+
+
+Traceback (most recent call last):
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 891, in _cached_create_libspec
+    self._subprocess_check_output(
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 775, in _subprocess_check_output
+    return subprocess.check_output(*args, **kwargs)
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 420, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "C:\Users\pkumari\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 524, in run
+    raise CalledProcessError(retcode, process.args,
